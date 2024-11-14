@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #bebebc;
+    font-weight: bold;
+}
+
+body {
+    background-color: #121212;
+    color: #F0F0F0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 30px;
+}
+
+.fa-spotify {
+    font-size: 32px;
+}
+
+.search {
+    display: flex;
+    position: absolute;
+    left: 36%;
+}
+
+.icon-house {
+    background-color: #2A2A2A;
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.fa-house {
+    font-size: 20px;
+}
+
+.fa-magnifying-glass {
+    
+    position: absolute;
+    z-index: 1;
+    top: 12px;
+    font-size: 24px;
+    padding-left: 15px;
+    color: #bebebc;
+}
+
+header input {
+    width: 474px;
+    height: 48px;
+    padding-left: 50px;
+    background-color: #202020;
+    border-radius: 500px;
+    border: none;
+    position: relative;
+    z-index: 0;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.icon-broswe {
+    position: absolute;
+    right: 20px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    p {
+        color: #bebebc;
+        font-size: 30px;
+        font-weight: 100;
+    }
+}
+
+.fa-window-maximize {
+    font-size: 24px;
+}
+
+input::placeholder {
+    color: #bebebc;
+}
+
+
+button {
+    font-weight: 700;
+    border-radius: 500px;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+.button-normal {
+    height: 48px;
+    padding: 0 35px;
+    font-size: 14px;
+}
+
+button:hover {
+    scale: 1.1;
+    background-color: #f3f3f3;
+}
+
+.login {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+
+    p {
+        color: #bebebc;
+    }
+}
+
+.container {
+    display: flex;
+}
+
+nav {
+    height: 100%;
+    padding: 0 15px;
+}
+
+.nav-container {
+    width: 405px;
+}
+
+.library {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+}
+
+.library a {
+    display: flex;
+    gap: 16px;
+}
+
+.fa-book {
+    font-size: 24px;
+}
+
+.fa-plus {
+    font-size: 20px;
+    color: #bebebc;
+}
+
+.box {
+    background-color: #202020;
+    padding: 14px 20px;
+    border-radius: 10px;
+    margin-bottom: 26px;
+}
+
+.box span {
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.box p {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 10px 0 20px 0;
+}
+
+.box button {
+    padding: 8px 16px;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.container-bot {
+    width: 405px;
+    margin-top: 240px;
+    padding-left: 18px;
+}
+
+.footer-nav a {
+    display: inline-block;
+    font-weight: normal;
+    margin-bottom: 5px;
+    font-size: 10px;
+    padding-right: 10px;
+}
+
+.container-bot p {
+    font-size: 10px;
+    margin-top: 5px;
+    color: #bebebc;
+}
+
+.container-bot button {
+    padding: 5px 15px;
+    border-radius: 500px;
+    background-color: #121212;
+    color: white;
+    border: 1px solid #777776;
+    margin-top: 34px;
+    
+
+    .fa-globe {
+        font-size: 15px;
+    }
+}
+
+main {
+    width: 100%;
+    background: linear-gradient(to bottom, #202020, #121212);
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.header-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 14px;
+    gap: 40px;
+    padding: 20px 28px 0 26px;
+}
+
+main h2 {
+    font-size: 20px;
+}
+
+.artist-list {
+    display: flex;
+    padding-left: 10px;
+}
+
+.artist-card {
+    display: flex;
+    width: 242px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+    div {
+        width: 215px;
+    }
+
+    img {
+        width: 215px;
+        height: 215px;
+        border-radius: 10px;
+    }
+}
+
+.artist-card:hover {
+    background-color: #202020;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main span {
+    font-size: 13px;
+    color: #bebebc;
+}
+
+.circle {
+    clip-path: circle(50%)
+}
+
+.album {
+    margin-top: 28px;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 8px;
+}
+
+.footer-ad {
+    background: linear-gradient(to right, #AF2896, #509AF4);
+    height: 66px;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    p {
+        font-size: 14px;
+    }
+
+    span {
+        font-size: 12px;
+        font-weight: bold;
+    }
+}
+
+
