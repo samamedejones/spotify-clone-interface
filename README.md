@@ -1,14 +1,14 @@
 # Drinks Menu
-![frutas](https://github.com/user-attachments/assets/edad9b46-d7c3-4ff6-afe1-2fd5bba1a2ee)
+*foto projeto*
 
 
-In this project I created a very colorful drinks menu with transition animations between one drink and another.
+(descrição do projeto).
 
 ## Learnings
 
-Here I learned extra CSS techniques, such as creating animations with keyframes and also in the javascript part I had to have logical thinking so that I could move between the menu options without breaking the code
+(oque aprendi com o projeto)
 </br>
-link: https://samamedejones.github.io/drinks-menu/
+link: (link projeto)
 
 
 ## Technologies used
