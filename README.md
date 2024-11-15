@@ -1,5 +1,5 @@
 # Drinks Menu
-*foto projeto*
+![spotify](https://github.com/user-attachments/assets/b4ddaff7-b02f-4393-91c1-218c750fee69)
 
 
 (descrição do projeto).
