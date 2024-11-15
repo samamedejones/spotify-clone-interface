@@ -7,7 +7,7 @@ In this project I replicate the Spotify interface using only HTML and CSS. It lo
 
 Here I didn't learn anything new but to improve more in HTML and CSS, it's always good to keep practicing to improve as a programmer (even though these aren't programming languages)
 </br>
-link: (link projeto)
+link: https://samamedejones.github.io/spotify-clone-interface/
 
 
 ## Technologies used
