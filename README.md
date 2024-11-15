@@ -1,8 +1,7 @@
 # Drinks Menu
 ![spotify](https://github.com/user-attachments/assets/b4ddaff7-b02f-4393-91c1-218c750fee69)
 
-
-(descrição do projeto).
+In this project I replicate the Spotify interface using only HTML and CSS. It looked very pretty and faithful to the Spotify interface that I had as a reference.
 
 ## Learnings
 
